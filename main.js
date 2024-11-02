@@ -30,3 +30,5 @@ shangliebiao.innerHTML = '<li class="nav__list-item"><a href="/"><img class="nav
 var name = document.querySelectorAll(".user-profile-name");
 name[0].innerHTML = "某SB"
 name[1].innerHTML = "某SB"
+var xialiebiao = document.querySelector(".section__footer.supplementary.dot.list");
+xialiebiao.innerHTML = '<li>114 次查看</li><li><a href="javascript:;" data-op="react" data-type="discuss" data-form="{&quot;operation&quot;:&quot;reaction&quot;,&quot;nodeType&quot;:&quot;did&quot;,&quot;id&quot;:&quot;666a62b5f5f30c457528e6c9&quot;}"></a></li><div class="reactions list" data-type="did" data-did="666a62b5f5f30c457528e6c9"><div class="reaction active"><span class="emoji">👎</span> 514</div></div>';
